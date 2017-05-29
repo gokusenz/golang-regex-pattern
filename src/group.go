@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	//[[cat c] [sat s] [mat m]]
+	//[[cat c] [bat b] [sat s] [mat m]]
 	re, err := regexp.Compile(`(.)at`)
 	if err != nil {
 		log.Fatal(err)
